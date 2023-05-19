@@ -1,0 +1,36 @@
+.addbook-container{
+    width:80%;
+    border: 1px solid #ddd;
+    padding-top:50px;
+    margin-top:50px !important;
+    margin: 0 auto;
+  }
+
+  .addbook-form{
+    width:80%;
+  }
+
+  .blankspace {
+    margin-bottom: 50px;
+  }
+  
+  .siderAdmin-container{
+    height: auto;
+    min-height:700px !important;
+    min-width:250px !important;
+    width: 250px !important;
+    max-width:250px !important;
+    /* flex: 0 0 250px !important; */
+    /* color: #364149; */
+    /* background: #fafafa; */
+    border-right: 1px solid rgba(0, 0, 0, 0.07);
+    font-size: 20px;
+  }
+
+  
+.userorder-table{
+  width:80% !important;
+  margin:auto !important;
+  padding-top: 50px !important;
+}
+

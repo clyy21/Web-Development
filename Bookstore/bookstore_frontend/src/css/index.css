@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{ 
+    /* Background Color */
+    --bg-danger:#f63440;
+    --bg-white:#fff;
+    --bg-light-white:#f5f5f5;
+
+    /* Text Color */
+    --primary-font:"Poppins", sans-serif;
+    --text-white:#fff;
+    --text-black:#121212; 
+    --text-danger:#f63440; 
+    --text-gray:#aaa;
+    --text-dark-gray:#777;
+
+}  
+body {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    background:var(--bg-white);
+    color: var(--text-black);
+    overflow-x:hidden;
+} 
+
+/* Custom CSS */
+a,
+a:hover{
+    text-decoration: none;
+}
+p{
+    margin:0;
+}
+
+tr {
+  margin-bottom: 20px;
+}
+
+th {
+  width: 250px;
+  text-align: center;
+  font-size: 20px;
+  /* margin-bottom: 100px; */
+}
+
+td {
+  width: 250px;
+  font-size: 20px;
+}
+
+table {
+  width: 100%;
+  margin: 50px 0px;
+  border-spacing: 15px;
+  color: #444;
+  text-align: center;
+}
+
+
+.btn-danger{
+    background:var(--bg-danger);
+    border-color:var(--bg-danger);
+    padding:0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.btn-danger:hover{
+    color:var(--text-danger);
+    background:transparent; 
+}
+
+.blankspacetop {
+  margin-top: 50px;
+}
+
+.blankspacetop2 {
+  margin-top: 100px;
+}
+
+
+/* Navbar */ 
+#header .fixed-top{
+  box-shadow: 0 0.125rem 0.675rem rgb(0 0 0 / 5%);
+}
+#header .navbar-nav .nav-item .nav-link{
+  color:var(--text-black);
+  padding:0.5rem 1rem;
+  text-align: center;
+}
+#header .navbar-nav .nav-item .nav-link:hover,
+#header .navbar-nav .nav-item .nav-link.active{
+  color: red;
+}
+#header .navbar-toggler-icon{
+  width:unset;
+  height:unset;
+}
+#header .navbar-toggler:focus{
+  box-shadow: none;
+}
+
+
+
+/* Title */
+.headline h2::before{
+  content:'';
+  width:30%;
+  height:0.125rem;
+  background-color: var(--bg-danger);
+  position:absolute;
+  bottom:0;
+  left:50%;
+  transform:translate(-50%, -50%);
+  border-radius: 0.625rem;
+}
+
+/* Product = Each Book */ 
+.products{
+  padding-top:1rem;
+}
+
+.products a{
+  text-decoration: none;
+  color:var(--text-black);
+}
+
+.product-list .product-name h3{
+  font-size: 1.125rem;
+  color:var(--text-black);
+  transition:all 0.3s ease 0s;
+}
+.product-list .product-name h3:hover{
+  color:var(--text-danger);
+}
+.product-list .product-name .amount{
+  color:var(--text-danger);
+  font-weight: 500;
+}
+
+/* Book List Table */
+.booklist {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+}
+
+.booklist-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+} 
+
+.booklist-search {
+  padding: 10px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  background-color: white;
+  border-color: black;   
+}
+
+.booklist-table {
+  margin-top: 0px;
+}
+
+/* Book List (Add Book) */
+.booklist-addbook input {
+  margin: 5px;
+  background-color: transparent;
+}
+
+.booklist-addbook-btn {
+  margin-top: 20px;
+}
+
+.booklist-editablerow input{
+  background-color: transparent;
+  margin: auto;
+}
+
+/* Book List (Image) */
+.table-img {
+  width: 100px;
+  margin: 10px 0px;
+}
+
+
+
+
+
+
+
+
+.login-form-style {
+  max-width:480px; 
+  margin:auto
+}
+
+.book-display-img {
+  width: 150px;
+  height: 200px
+}
+
+.book-aa {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

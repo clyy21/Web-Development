@@ -1,0 +1,53 @@
+
+/* Home CSS */  
+.home .home-banner-1,
+.home .home-banner-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% center;
+    min-height: 650px;
+    position:relative;
+} 
+.home .home-banner-1{
+    background-image:url("../assets/images/slide1.jpg");
+}
+.home .home-banner-2{
+    background-image:url('../assets/images/slide2.jpg');
+}
+.home .home-banner .home-banner-1-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-110%, -50%)
+}
+.home .home-banner .home-banner-2-text{
+    position:absolute;
+    top: 40%;
+    left: 35%;
+    
+}
+.home .home-banner .home-banner-text h1{
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+.home .home-banner .home-banner-text h2{
+    color:#fff;
+    font-size: 1.5rem;
+    
+}
+
+.home .carousel-indicators [data-bs-target]{
+    background-color:red;
+    width:2.5rem;
+    height:0.313rem;
+}
+.home .carousel-control-next-icon,
+.home .carousel-control-prev-icon{
+    background: transparent;
+}
+.home .slider-icon{
+    font-size: 3rem;
+    font-weight: 600;
+    color:var(--text-danger);
+}
